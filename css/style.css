@@ -27,7 +27,7 @@ body{
     margin-left: 7%;
     color: var(--color-secundario);
     font-size: 1.5em;
-    font-family: sans-serif;
+    font-family:fantasy;
 }
 .header_items{
     display: flex;
@@ -48,6 +48,7 @@ body{
     text-transform: capitalize;
     color: var(--color-terciario);
     text-decoration: none;
+    font-family: monospace;
 }
 .header_items li:hover{
     background: var(--color-secundario);
@@ -71,12 +72,14 @@ body{
     color: var(--color-secundario);
     padding-bottom: 10px;
     text-transform: capitalize;
+    font-family:monospace;
 }
 .titulo p{
     display: flex;
     color: var(--color-terciario);
     font-size: 2em;
     text-transform: capitalize;
+    font-family: monospace;
 }
 .titulo button{
     background: var(--color-secundario);
@@ -86,6 +89,7 @@ body{
     margin-top: 50px;
     border: none;
     font-size: 1.3em;
+    font-family: monospace;
 }
 .titulo img{
     display: flex;
@@ -119,21 +123,24 @@ body{
     margin-top: -25% ;
     margin-left: 2.5%;
     text-transform: capitalize;
+    font-family: monospace;
 }
 .about p{
     /*background: violet;*/
     display: flex;
     color: var(--color-terciario);
     font-size: 3.5em;
-    margin-left: 20%;
+    margin-left: 22.5%;
     margin-top: 5px;
+    font-family: monospace;
 }
 .about small{
     display: flex;
     color: var(--color-terciario);
     font-size: 1.5em;
-    margin-left: 16.5%;
+    margin-left: 21%;
     margin-top: 15px;
+    font-family: monospace;
 
 }
 .about button{
@@ -146,6 +153,7 @@ body{
     font-size: 1.3em; 
     margin-left: 5%;
     margin-top: 20px;
+    font-family: monospace;
 }
 .food{
     margin-top: 8%;
@@ -161,12 +169,14 @@ body{
     font-size: 1.5em;
     margin-top: 5px;
     text-transform: capitalize;
+    font-family: monospace;
 }
 .food p{
     display: flex;
     color: var(--color-terciario);
     font-size: 3em;
     margin-top: 15px;
+    font-family: monospace;
 } 
 .food i{
     font-size: 3.5em;
@@ -189,16 +199,20 @@ body{
     color: var(--color-cuarto);
     font-size: 2em;
     margin-top: -15px;
+    font-family: monospace;
 }
 .food_1 small{
     color: var(--color-secundario);
     font-size: 1.3em;
     margin-top: 5px;
+    font-family: monospace;
 }
 #description{
     margin-top: -2px;
     font-size: 1.5em;
-}.food_2{
+    font-family: monospace;
+}
+.food_2{
     background: var(--color-quinto);
     width: 500px;
     height: 500px;
@@ -211,6 +225,7 @@ body{
     color: var(--color-cuarto);
     font-size: 2em;
     margin-top: -20px;
+    font-family: monospace;
 }
 .food_2 img{
     width: fit-content;
@@ -220,11 +235,13 @@ body{
 #description_2{
     font-size: 1.5em;
     margin-top: 5px;
+    font-family: monospace;
 }
 .food_2 small{
     font-size: 1.3em;
     margin: 4px;
     color: var(--color-secundario);
+    font-family: monospace;
 }
 .food_3{
     background: var(--color-quinto);
@@ -243,15 +260,18 @@ body{
 .food_3 p{
     font-size: 1.7em;
     color: var(--color-cuarto);
+    font-family: monospace;
 }
 #description_3{
     font-size: 1.5em;
     margin-top: 5px;
+    font-family: monospace;
 }
 .food_3 small{
     font-size: 1.3em;
     margin: 4px;
     color: var(--color-secundario);
+    font-family: monospace;
 }
 .service{
     /* background: red; */
@@ -265,11 +285,13 @@ body{
     font-size: 2em;
     color: var(--color-secundario);
     text-transform: capitalize;
+    font-family: monospace;
 }
 .service p{
     color: var(--color-terciario);
     margin-top: 15px;
     font-size: 3em;
+    font-family: monospace;
 }
 .imagenes{
     /* background-color: green; */
@@ -296,12 +318,14 @@ body{
     display: flex;
     color: var(--color-secundario);
     margin-top: 15px;
+    font-family: monospace;
 }
 .img_1 small{
     font-size: 2em;
     display: flex;
     color: var(--color-terciario);
     margin-top: 15px;
+    font-family: monospace;
 }
 .img_2{
     /* background: red; */
@@ -321,12 +345,14 @@ body{
     display: flex;
     color: var(--color-secundario);
     margin-top: 15px;
+    font-family: monospace;
 }
 .img_2 small{
     font-size: 2em;
     display: flex;
     color: var(--color-terciario);
     margin-top: 15px;
+    font-family: monospace;
 }
 .img_3{
     /* background: blue; */
@@ -346,12 +372,14 @@ body{
     display: flex;
     color: var(--color-secundario);
     margin-top: 15px;
+    font-family: monospace;
 }
 .img_3 small{
     font-size: 2em;
     display: flex;
     color: var(--color-terciario);
     margin-top: 15px;
+    font-family: monospace;
 }
 .quality{
     display: flex;
@@ -376,6 +404,7 @@ body{
 }
 .quality p{
     font-size: 4em;
+    font-family: monospace;
 }
 .quality button{
     background: var(--color-secundario);
@@ -387,6 +416,7 @@ body{
     font-size: 1.3em;
     margin-top: auto;
     margin-top: 20px;
+    font-family: monospace;
 }
 .information{
     display: flex;
@@ -396,12 +426,14 @@ body{
 .information p{
     font-size: 2.3em;
     color: var(--color-terciario);
+    font-family: monospace;
 }
 .information ul{
     list-style: none;
     font-size: 1.5em;
     color: var(--color-terciario);
     margin-top: 15px;
+    font-family: monospace;
 }
 .information a{
     font-size: 1em;
