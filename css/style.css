@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     background: var(--color-primario);
     width: 100%;
@@ -16,7 +15,6 @@ body{
 .header{
     /*background: red;*/
     position: fixed;
-
 }
 .header_container{
     display: flex;
@@ -176,6 +174,7 @@ body{
     margin-left: 88%;
     background: var(--color-secundario);
 }
+
 .food_1{
     background: var(--color-quinto);
     width: 500px;
@@ -429,4 +428,13 @@ body{
 .bottom{
     margin-right: 80%;
     border-bottom: 2px solid var(--color-secondary);    
+}
+
+@media (width < 900px){
+*{
+    font-size: 11px;
+}
+}
+.body{
+    font-size: 15px;
 }
