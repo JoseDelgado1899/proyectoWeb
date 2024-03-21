@@ -15,6 +15,7 @@ body{
     
 .header{
     /*background: red;*/
+    position: fixed;
 
 }
 .header_container{
@@ -42,11 +43,13 @@ body{
     display: flex;
     margin-left: 15%;
 }
-.header_items li{
+.header_items a{
     float: left;
     padding: 10%;
     font-size: 1.2em;
     text-transform: capitalize;
+    color: var(--color-terciario);
+    text-decoration: none;
 }
 .header_items li:hover{
     background: var(--color-secundario);
@@ -60,13 +63,13 @@ body{
     display: flex;
     margin-left: 15%;
     flex-direction: column;
-    margin-top: 1% ;
+    margin-top: 1%;
     width: 1000px;
 }
 .titulo h2{
     /*background: green;*/
     font-size: 7em;
-    margin-top: 10%;
+    margin-top: 25%;
     color: var(--color-secundario);
     padding-bottom: 10px;
     text-transform: capitalize;
@@ -352,28 +355,39 @@ body{
     margin-top: 15px;
 }
 .quality{
-    background: var(--color-quinto);
-    width: 90%;
-    height: 40vh;
     display: flex;
     justify-content: center;
-    margin-left: 5%;
-    margin-top: 15%;
+    align-items: center;
+    margin-top: 13%;
+}
+.quality_section{
+    background: var(--color-quinto);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 45vh;
+    padding-top: 5vh;
+    padding-bottom: 8vh;
+    text-align: center;
+}
+.quality_2{
+    text-align: center;
 }
 .quality p{
     font-size: 4em;
-    display: flex;
-    align-items: center;
 }
 .quality button{
     background: var(--color-secundario);
     color: var(--color-terciario);
-    width: 150px;
-    height: 40px;
-    margin-top: 50px;
+    width: 10em;
+    height: 3em;
+    outline: none;
     border: none;
     font-size: 1.3em;
     margin-top: auto;
+    margin-top: 20px;
 }
 .information{
     display: flex;
@@ -390,6 +404,14 @@ body{
     color: var(--color-terciario);
     margin-top: 15px;
 }
+.information a{
+    font-size: 1em;
+    text-transform: capitalize;
+    color: var(--color-terciario);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
 .iconos{
     display: flex;
     flex-direction: row;
@@ -403,4 +425,8 @@ body{
     height: 30px;
     display: flex;
     justify-content: center;
+}
+.bottom{
+    margin-right: 80%;
+    border-bottom: 2px solid var(--color-secondary);    
 }
