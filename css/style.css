@@ -1,1 +1,27 @@
 @import url(variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 99vw;
+    height: 99vw;
+    background: var(--color-primario);
+}
+.shop{
+    background: white;
+    width: 60%;
+    display: flex;
+}
+.shop .cuadro{
+    display: flex;
+    align-items: flex-end;
+    background: red;
+
+}
+#abrigo{
+    background: blue;
+    width: 50%;
+}
