@@ -16,84 +16,84 @@ a {
 .titulo {
     display: flex;
     position: absolute;
-    font-size: 3vi;
+    font-size: 3.5em;
     color: white;
-    top: 2vi;
-    left: 4vi;
+    top: 5vh;
+    left: 10vh;
     text-transform: capitalize;
 }
 .todos {
     display: flex;
     position: absolute;
-    font-size: 2vi;
+    font-size: 2em;
     color: white;
-    top: 12vi;
-    left: 8vi;
+    top: 25vh;
+    left: 10vh;
     text-transform: capitalize;
 }
 .abrigos {
     position: absolute;
     text-transform: capitalize;
     display: flex;
-    font-size: 2vi;
+    font-size: 2em;
     color: white;
-    top: 16vi;
-    left: 9vi;
+    top: 32vh;
+    left: 10vh;
 }
 .camisetas {
     position: absolute;
     text-transform: capitalize;
-    font-size: 2vi;
+    font-size: 2em;
     display: flex;
     color: white;
-    top: 20vi;
-    left: 9vi;
+    top: 38vh;
+    left: 10vh;
 }
 .pantalones {
     display: flex;
     position: absolute;
     text-transform: capitalize;
-    font-size: 2vi;
+    font-size: 2em;
     color: white;
-    top: 24vi;
-    left: 9vi;
+    top: 44vh;
+    left: 10vh;
 }
 .carritos {
     position: absolute;
-    font-size: 2vi;
+    font-size: 2.5em;
     color: white;
-    top: 34vi;
-    left: 9vi;
+    top: 65vh;
+    left: 10vh;
     text-transform: capitalize;
 }
 .derechos {
     display: flex;
     position: absolute;
-    font-size: 2vi;
+    font-size: 2.5em;
     color: white;
-    top: 42vi;
-    left: 7vi;
+    top: 80vh;
+    left: 10vh;
     text-transform: capitalize;
 }
 .pagina2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     position: absolute;
-    border: #0d18022a 0.3vi solid;
+    border: #0d18022a 0.8vh solid;
     background-color: white;
-    border-radius: 1vi;
-    top: 2vi;
-    left: 27vi;
+    border-radius: 2vh;
+    top: 5vh;
+    left: 53vh;
     width: 70%;
     height: 90%;
-    padding: 6vi 2vi;
+    padding: 6vh 2vh;
     overflow: auto;
 }
 .titulo2 {
     position: absolute;
     font-size: 2.5em;
     color: #000;
-    top: 6vh;
+    top: 4vh;
     left: 2vh;
 }
 .cuadros {
@@ -106,7 +106,7 @@ a {
     border-radius: 3vh;
     width: 29vh;
     height: 28vh;
-    margin-top: 5vh;
+    margin-top: 6vh;
 }
 .imagenes {
     margin: 1vh;
@@ -117,7 +117,7 @@ a {
 }
 .cuadrito {
     border: gray 0.5vh solid;
-    border-radius: 1vi;
+    border-radius: 2vh;
     position: relative;
     left: -0.6vh;
     width: 30vh;

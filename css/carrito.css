@@ -16,57 +16,64 @@ a {
 .titulo {
     display: flex;
     position: absolute;
-    font-size: 3vi;
+    font-size: 3.5em;
     color: white;
-    top: 2vi;
-    left: 4vi;
+    top: 5vh;
+    left: 10vh;
+    text-transform: capitalize;
 }
 .todos {
     display: flex;
     position: absolute;
-    font-size: 2vi;
+    font-size: 2em;
     color: white;
-    top: 12vi;
-    left: 8vi;
+    top: 25vh;
+    left: 10vh;
+    text-transform: capitalize;
 }
 .abrigos {
     position: absolute;
+    text-transform: capitalize;
     display: flex;
-    font-size: 2vi;
+    font-size: 2em;
     color: white;
-    top: 16vi;
-    left: 9vi;
+    top: 32vh;
+    left: 10vh;
 }
 .camisetas {
     position: absolute;
-    font-size: 2vi;
+    text-transform: capitalize;
+    font-size: 2em;
     display: flex;
     color: white;
-    top: 20vi;
-    left: 9vi;
+    top: 38vh;
+    left: 10vh;
 }
 .pantalones {
     display: flex;
     position: absolute;
-    font-size: 2vi;
+    text-transform: capitalize;
+    font-size: 2em;
     color: white;
-    top: 24vi;
-    left: 9vi;
+    top: 44vh;
+    left: 10vh;
 }
 .carritos {
     position: absolute;
-    font-size: 2vi;
+    font-size: 2.5em;
     color: white;
-    top: 34vi;
-    left: 9vi;
+    top: 65vh;
+    left: 10vh;
+    text-transform: capitalize;
 }
 .derechos {
     display: flex;
     position: absolute;
-    font-size: 2vi;
+    font-size: 2.5em;
     color: white;
-    top: 42vi;
-    left: 7vi;
+    top: 80vh;
+    left: 10vh;
+    text-transform: capitalize;
 }
 .pagina2 {
     display: grid;
