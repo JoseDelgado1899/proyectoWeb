@@ -91,47 +91,50 @@ a {
 }
 .titulo2 {
     position: absolute;
-    font-size: 2vi;
+    font-size: 2.5em;
     color: #000;
-    top: 1vi;
-    left: 2vi;
+    top: 6vh;
+    left: 4vh;
 }
 .cuadros {
     position: relative;
-    margin: 0vi 0vi 5vi;
-    border: rgb(0, 38, 128) 0.1vi solid;
+    margin: 0vh 0vh 8vh;
+    border: rgb(0, 38, 128) 0.1vh solid;
     background-color: #000;
-    font-size: 1vi;
+    font-size: 1.5em;
     text-align: center;
-    border-radius: 2vi;
-    width: 15vi;
-    height: 16vi;
+    border-radius: 3vh;
+    width: 29vh;
+    height: 28vh;
+    margin-top: 5vh;
 }
 .imagenes {
-    margin: 0.5vi;
+    margin: 1vh;
     position: relative;
-    border-radius: 2vi;
-    width: 10vi;
-    height: 10vi;
+    border-radius: 3vh;
+    width: 20vh;
+    height: 20vh;
 }
 .cuadrito {
-    border: #4a4cab 0.2vi solid;
+    border: #4a4cab 0.5vh solid;
     border-radius: 1vi;
     position: relative;
-    left: -0.4vi;
-    width: 15.5vi;
-    height: 7vi;
+    left: -0.6vh;
+    width: 30vh;
+    height: 17vh;
     background-color: rgb(255, 255, 255);
+}
+.cuadrito p{
+    margin-top: 7px;
 }
 .textoA {
     position: absolute;
-    padding: 0.5vi;
-    background-color: #2873ac;
+    padding: 1vh;
+    background-color: var(--color-primario);
     color: white;
-    top: 4.2vi;
-    left: 10vi;
+    top: 10vh;
+    left: 18vh;
     justify-content: center;
     text-align: center;
-    border: #8ed4ff 0.2vi solid;
+    border: gray 0.4vh solid;
 }
-
