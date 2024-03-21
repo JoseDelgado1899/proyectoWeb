@@ -10,15 +10,18 @@
 body{
     background: var(--color-primario);
     width: 100%;
-    height: 470vh;
+    height: 490vh;
 }
     
 .header{
-    /*background: red;*/
+    background: red;
+
 }
 .header_container{
+    position: fixed;
     display: flex;
     justify-content: space-between;
+    width: 100vw;
 }
 .header_food{
     display: flex;
@@ -30,8 +33,6 @@ body{
 }
 .header_items{
     display: flex;
-    align-items: center;
-    margin-right: 23%;
     font-size: 1.5em;
     color: var(--color-terciario);
 }
@@ -39,7 +40,6 @@ body{
     list-style: none;
     margin: 1.5%;
     display: flex;
-    align-items: center;
     margin: 0;
 }
 .header_items li{
@@ -47,6 +47,10 @@ body{
     padding: 10%;
     font-size: 1.2em;
     text-transform: capitalize;
+}
+.header_items li:hover{
+    background: var(--color-secundario);
+    transition: 0.5s;
 }
 .main_titulo{
     /*background: green;*/
@@ -377,7 +381,7 @@ body{
     margin-top: 15%;
 }
 .information p{
-    font-size: 2em;
+    font-size: 2.3em;
     color: var(--color-terciario);
 }
 .information ul{
