@@ -1,0 +1,173 @@
+@import url(variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 99wh;
+    background-color: var(--color-primario);
+}
+a {
+    text-decoration: none;
+}
+.titulo {
+    display: flex;
+    position: absolute;
+    font-size: 3vi;
+    color: white;
+    top: 2vi;
+    left: 4vi;
+}
+.todos {
+    display: flex;
+    position: absolute;
+    font-size: 2vi;
+    color: white;
+    top: 12vi;
+    left: 8vi;
+}
+.abrigos {
+    position: absolute;
+    display: flex;
+    font-size: 2vi;
+    color: white;
+    top: 16vi;
+    left: 9vi;
+}
+.camisetas {
+    position: absolute;
+    font-size: 2vi;
+    display: flex;
+    color: white;
+    top: 20vi;
+    left: 9vi;
+}
+.pantalones {
+    display: flex;
+    position: absolute;
+    font-size: 2vi;
+    color: white;
+    top: 24vi;
+    left: 9vi;
+}
+.carritos {
+    position: absolute;
+    font-size: 2vi;
+    color: white;
+    top: 34vi;
+    left: 9vi;
+}
+.derechos {
+    display: flex;
+    position: absolute;
+    font-size: 2vi;
+    color: white;
+    top: 42vi;
+    left: 7vi;
+}
+.pagina2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    position: absolute;
+    border: gray 0.3vi solid;
+    background-color: white;
+    border-radius: 1vi;
+    top: 2vi;
+    left: 27vi;
+    width: 70%;
+    height: 90%;
+    padding: 6vi 2vi;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.titulo2 {
+    position: absolute;
+    font-size: 2.5em;
+    color: var(--color-primario);
+    top: 3vh;
+    left: 5vh;
+}
+.cuadros {
+    position: relative;
+    margin: 0vi 0vi 0.5vi;
+    border: gray 0.1vi solid;
+    background-color: var(--color-primario);
+    font-size: 1.5vi;
+    border-radius: 2vi;
+    width: 65vi;
+    height: 10vi;
+}
+.cuadros p{
+    color: white;
+}
+.imagenes {
+    position: relative;
+    left: 2vi;
+    border-radius: 2vi;
+    width: 8vi;
+    height: 8vi;
+}
+.cuadrito {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 65vi;
+    height: 9vi;
+}
+.textoB {
+    position: relative;
+    font-size: 1.5vi;
+    padding: 0.5vi;
+    background-color: var(--color-primario);
+    color: white;
+    width: 15vi;
+    top: 4.5vi;
+    left: 1vi;
+    top: -0vh;
+    justify-content: center;
+    text-align: center;
+    border: gray 0.2vi solid;
+}
+.comprar {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: rgb(0, 38, 128) 0.1vi solid;
+    background-color: var(--color-primario);
+    font-size: 1.5vi;
+    border-radius: 2vi;
+    width: 30vi;
+    height: 6vi;
+    left: 35vi;
+    top: -5vh;
+}
+.t{
+    position: relative;
+    left: 2vi;
+    grid-row: 1;
+    grid-column: 1;
+    color: white;
+    top: 15px;
+}
+.textoC {
+    position: relative;
+    top: 1vi;
+    left: 3vi;
+    grid-column: 2;
+    grid-row: 1/2;
+    background-color: white;
+    font-size: 1.5vi;
+    color: var(--color-primario);
+    width: 10vi;
+    height: 4vi;
+    justify-content: center;
+    text-align: center;
+    border: gray 0.2vi solid;
+}

@@ -8,11 +8,13 @@
 body {
     width: 100vw;
     height: 99wh;
-    background-color: #000;
+    background-color: var(--color-primario);
 }
+
 a {
     text-decoration: none;
 }
+
 .titulo {
     display: flex;
     position: absolute;
@@ -20,7 +22,6 @@ a {
     color: white;
     top: 2vi;
     left: 4vi;
-    text-transform: capitalize;
 }
 .todos {
     display: flex;
@@ -29,11 +30,9 @@ a {
     color: white;
     top: 12vi;
     left: 8vi;
-    text-transform: capitalize;
 }
 .abrigos {
     position: absolute;
-    text-transform: capitalize;
     display: flex;
     font-size: 2vi;
     color: white;
@@ -42,7 +41,6 @@ a {
 }
 .camisetas {
     position: absolute;
-    text-transform: capitalize;
     font-size: 2vi;
     display: flex;
     color: white;
@@ -52,7 +50,6 @@ a {
 .pantalones {
     display: flex;
     position: absolute;
-    text-transform: capitalize;
     font-size: 2vi;
     color: white;
     top: 24vi;
@@ -64,7 +61,6 @@ a {
     color: white;
     top: 34vi;
     left: 9vi;
-    text-transform: capitalize;
 }
 .derechos {
     display: flex;
@@ -73,13 +69,12 @@ a {
     color: white;
     top: 42vi;
     left: 7vi;
-    text-transform: capitalize;
 }
 .pagina2 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     position: absolute;
-    border: #0d18022a 0.3vi solid;
+    border: gray 0.3vi solid;
     background-color: white;
     border-radius: 1vi;
     top: 2vi;
@@ -87,54 +82,17 @@ a {
     width: 70%;
     height: 90%;
     padding: 6vi 2vi;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .titulo2 {
     position: absolute;
     font-size: 2.5em;
-    color: #000;
-    top: 6vh;
-    left: 2vh;
-}
-.cuadros {
-    position: relative;
-    margin: 0vh 0vh 8vh;
-    border: gray 0.1vh solid;
-    background-color: #000;
-    font-size: 1.5em;
-    text-align: center;
-    border-radius: 3vh;
-    width: 29vh;
-    height: 28vh;
-    margin-top: 5vh;
-}
-.imagenes {
-    margin: 1vh;
-    position: relative;
-    border-radius: 3vh;
-    width: 20vh;
-    height: 20vh;
-}
-.cuadrito {
-    border: gray 0.5vh solid;
-    border-radius: 1vi;
-    position: relative;
-    left: -0.6vh;
-    width: 30vh;
-    height: 17vh;
-    background-color: white;
+    color: var(--color-primario);
+    top: 3vh;
+    left: 5vh;
 }
 .cuadrito p{
-    margin-top: 7px;
-}
-.textoA {
-    position: absolute;
-    padding: 1vh;
-    background-color: var(--color-primario);
-    color: white;
-    top: 10vh;
-    left: 18vh;
-    justify-content: center;
-    text-align: center;
-    border: gray 0.4vh solid;
+    font-size: 1.5em;
+    margin-left: 1.1vh;
 }
