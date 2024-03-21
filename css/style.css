@@ -5,23 +5,133 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    width: 99vw;
-    height: 99vw;
-    background: var(--color-primario);
+body {
+    width: 100vw;
+    height: 99wh;
+    background-color: #000;
 }
-.shop{
-    background: white;
-    width: 60%;
-    display: flex;
+a {
+    text-decoration: none;
 }
-.shop .cuadro{
+.titulo {
     display: flex;
-    align-items: flex-end;
-    background: red;
+    position: absolute;
+    font-size: 3vi;
+    color: rgb(255, 255, 255);
+    top: 2vi;
+    left: 4vi;
+    text-transform: capitalize;
+}
+.todos {
+    display: flex;
+    position: absolute;
+    font-size: 2vi;
+    color: rgb(255, 255, 255);
+    top: 12vi;
+    left: 8vi;
+    text-transform: capitalize;
+}
+.abrigos {
+    position: absolute;
+    text-transform: capitalize;
+    display: flex;
+    font-size: 2vi;
+    color: rgb(255, 255, 255);
+    top: 16vi;
+    left: 9vi;
+}
+.camisetas {
+    position: absolute;
+    text-transform: capitalize;
+    font-size: 2vi;
+    display: flex;
+    color: rgb(255, 255, 255);
+    top: 20vi;
+    left: 9vi;
+}
+.pantalones {
+    display: flex;
+    position: absolute;
+    text-transform: capitalize;
+    font-size: 2vi;
+    color: rgb(255, 255, 255);
+    top: 24vi;
+    left: 9vi;
+}
+.carritos {
+    position: absolute;
+    font-size: 2vi;
+    color: rgb(255, 255, 255);
+    top: 34vi;
+    left: 9vi;
+    text-transform: capitalize;
+}
+.derechos {
+    display: flex;
+    position: absolute;
+    font-size: 2vi;
+    color: rgb(255, 255, 255);
+    top: 42vi;
+    left: 7vi;
+    text-transform: capitalize;
+}
+.pagina2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: absolute;
+    border: #0d18022a 0.3vi solid;
+    background-color: white;
+    border-radius: 1vi;
+    top: 2vi;
+    left: 27vi;
+    width: 70%;
+    height: 90%;
+    padding: 6vi 2vi;
+    overflow: auto;
+}
+.titulo2 {
+    position: absolute;
+    font-size: 2vi;
+    color: #000;
+    top: 1vi;
+    left: 2vi;
+}
+.cuadros {
+    position: relative;
+    margin: 0vi 0vi 5vi;
+    border: rgb(0, 38, 128) 0.1vi solid;
+    background-color: #000;
+    font-size: 1vi;
+    text-align: center;
+    border-radius: 2vi;
+    width: 15vi;
+    height: 16vi;
+}
+.imagenes {
+    margin: 0.5vi;
+    position: relative;
+    border-radius: 2vi;
+    width: 10vi;
+    height: 10vi;
+}
+.cuadrito {
+    border: #4a4cab 0.2vi solid;
+    border-radius: 1vi;
+    position: relative;
+    left: -0.4vi;
+    width: 15.5vi;
+    height: 7vi;
+    background-color: rgb(255, 255, 255);
+}
+.textoA {
+    position: absolute;
+    padding: 0.5vi;
+    background-color: #2873ac;
+    color: white;
+    top: 4.2vi;
+    left: 10vi;
+    justify-content: center;
+    text-align: center;
+    border: #8ed4ff 0.2vi solid;
+}
 
-}
-#abrigo{
-    background: blue;
-    width: 50%;
-}
