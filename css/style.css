@@ -14,11 +14,10 @@ body{
 }
     
 .header{
-    background: red;
+    /*background: red;*/
 
 }
 .header_container{
-    position: fixed;
     display: flex;
     justify-content: space-between;
     width: 100vw;
@@ -35,12 +34,13 @@ body{
     display: flex;
     font-size: 1.5em;
     color: var(--color-terciario);
+    margin-right: 30%;
 }
 .header_items ul{
     list-style: none;
     margin: 1.5%;
     display: flex;
-    margin: 0;
+    margin-left: 15%;
 }
 .header_items li{
     float: left;
